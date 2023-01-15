@@ -1,2 +1,2 @@
 # bluehole
-an lightweight webserver
+ an lightweight webserver with 0 deps
