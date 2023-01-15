@@ -1,0 +1,15 @@
+{
+    "port": 80,
+    "host": "127.0.0.1",
+    "documentRoot": "./html",
+    "indexFile": "index.html",
+    "errorsRoot": {
+        "404": "./html/errorpages/404.html",
+        "500": "./html/errorpages/500.html"
+    },
+    "logsRoot": {
+        "access": "./logs/access.log",
+        "error": "./logs/error.log"
+    },
+    "disablePoweredByHeader": false
+}

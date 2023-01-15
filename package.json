@@ -1,0 +1,19 @@
+{
+  "name": "bluehole",
+  "version": "1.0.0",
+  "description": "an lightweight webserver",
+  "main": "index.cjs",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.mjs"
+  },
+  "keywords": [
+    "webserver",
+    "web",
+    "server",
+    "hole",
+    "nodejs"
+  ],
+  "author": "marshallovski",
+  "license": "MIT"
+}
