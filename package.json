@@ -2,7 +2,7 @@
   "name": "bluehole",
   "version": "1.0.0",
   "description": "an lightweight webserver",
-  "main": "index.cjs",
+  "main": "index.mjs",
   "type": "module",
   "scripts": {
     "dev": "nodemon index.mjs"
