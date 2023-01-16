@@ -35,6 +35,7 @@ server.listen(port, hostname, () => {
     console.log(`bluehole running at http://${hostname}:${port}/`);
 });
 
+// @TODO: move this code part to a new file
 server.on('error', (e) => {
     switch (e.code) {
         case 'EADDRINUSE':
