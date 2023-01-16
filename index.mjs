@@ -58,7 +58,7 @@ server.on('error', (e) => {
             if (existsSync(config.errorsRoot[500]))
                 sendErrorPage(500, resExternal, true);
             else
-                sendErrorPage(500, resExternal, true);
+                sendErrorPage(500, resExternal, false);
             break;
         default:
             return console.log(`[server.onerror]: unknown code (${e.code})`);
