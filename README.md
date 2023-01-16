@@ -1,5 +1,5 @@
 # bluehole
- an lightweight webserver with no dependencies
+ an lightweight webserver based on built-in `node:http` module with no dependencies
  
  ## How to install & start web server
  1. download Node.js
